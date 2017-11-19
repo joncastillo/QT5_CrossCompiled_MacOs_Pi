@@ -1,0 +1,13 @@
+prefix=/Users/jonathancastillo/projects/QT5/qt5pi
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Contacts
+Description: Qt Contacts module
+Version: 0.0.0
+Libs: -L${libdir} -lQt5Contacts 
+Cflags: -I${includedir}/QtContacts -I${includedir}
+Requires: Qt5Core
+

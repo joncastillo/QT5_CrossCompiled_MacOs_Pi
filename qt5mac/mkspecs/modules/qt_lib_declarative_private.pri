@@ -1,0 +1,11 @@
+QT.declarative_private.VERSION = 5.7.1
+QT.declarative_private.name = QtDeclarative
+QT.declarative_private.module =
+QT.declarative_private.libs = $$QT_MODULE_LIB_BASE
+QT.declarative_private.includes = $$QT_MODULE_INCLUDE_BASE/QtDeclarative/5.7.1 $$QT_MODULE_INCLUDE_BASE/QtDeclarative/5.7.1/QtDeclarative
+QT.declarative_private.frameworks =
+QT.declarative_private.depends = core_private gui_private widgets_private script_private declarative
+QT.declarative_private.uses =
+QT.declarative_private.module_config = v2 internal_module
+QT.declarative_private.enabled_features =
+QT.declarative_private.disabled_features =

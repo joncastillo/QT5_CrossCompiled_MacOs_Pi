@@ -1,0 +1,17 @@
+QT.declarative.VERSION = 5.7.1
+QT.declarative.name = QtDeclarative
+QT.declarative.module = Qt5Declarative
+QT.declarative.libs = $$QT_MODULE_LIB_BASE
+QT.declarative.includes = $$QT_MODULE_INCLUDE_BASE $$QT_MODULE_INCLUDE_BASE/QtDeclarative
+QT.declarative.frameworks =
+QT.declarative.bins = $$QT_MODULE_BIN_BASE
+QT.declarative.plugin_types = qml1tooling
+QT.declarative.depends = core gui widgets script sql network xmlpatterns
+QT.declarative.run_depends = xmlpatterns
+QT.declarative.uses =
+QT.declarative.module_config = v2
+QT.declarative.DEFINES = QT_DECLARATIVE_LIB
+QT.declarative.enabled_features =
+QT.declarative.disabled_features =
+QT_CONFIG +=
+QT_MODULES += declarative

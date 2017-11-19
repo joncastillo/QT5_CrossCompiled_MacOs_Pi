@@ -1,0 +1,13 @@
+prefix=/Users/jonathancastillo/projects/QT5/qt5pi
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Enginio
+Description: Enginio module
+Version: 1.7.0
+Libs: -L${libdir} -lEnginio 
+Cflags: -I${includedir}/Enginio -I${includedir}
+Requires: Qt5Core Qt5Network
+
